@@ -1,6 +1,6 @@
 ___
 # 1 - Install ROS2
-Installation manual for installing ROS2 (on Ubuntu 18.04).
+Installation manual for installing ROS 2 (on Ubuntu 18.04).
 [_From Docs.Ros.org_](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html)
 
 ### System Requirements:
