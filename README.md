@@ -22,8 +22,7 @@ Add brief explanation of the project.
 - ROS 2
 - Ubuntu 18.04
 - Intel GPU/CPU
-- RGB-D camera ( Intel ....)
-- 
+- RGB-D camera (Intel Realsense)
 
 ### Installation Manual:
 
