@@ -150,7 +150,7 @@ First, an object is identified as a vehicle. This identification is used as inpu
 When the verification script completes, you will see an image that displays the resulting frame with detections rendered as bounding boxes, and text.
 
 #### 2.7.4. Close the image viewer window to complete the verification script.
-
+You have completed all required installation, configuration and build steps in this guide to use your CPU to work with your trained models.
 
 
 [Next]()
