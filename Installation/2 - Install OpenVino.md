@@ -112,4 +112,6 @@ This script downloads three pre-trained model IRs, builds the Security Barrier C
 
 First, an object is identified as a vehicle. This identification is used as input to the next model, which identifies specific vehicle attributes, including the license plate. Finally, the attributes identified as the license plate are used as input to the third model, which recognizes specific characters in the license plate.
 
-When the verification script completes, you will see an image that displays the resulting frame with detections rendered as bounding boxes, and text:
+When the verification script completes, you will see an image that displays the resulting frame with detections rendered as bounding boxes, and text.
+
+#### 4. Close the image viewer window to complete the verification script.
