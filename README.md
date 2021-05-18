@@ -10,6 +10,7 @@ Add brief explanation of the project.
 **System Requirements:**
 
 - ROS 2
+- Ubuntu 18.04
 - Intel GPU/CPU
 - En VEEEEEL meer
 
