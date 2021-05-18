@@ -69,7 +69,7 @@ vi <user_directory>/.bashrc
 ```
 source /opt/intel/openvino/bin/setupvars.sh
 ```
-#### 3. Save and close the file: press the ```_Esc_``` key and type ```:wq```.
+#### 3. Save and close the file: press the ```Esc``` key and type ```:wq```.
 #### 4. To test your change, open a new terminal. You will see ```[setupvars.sh] OpenVINO environment initialized.```
 The environment variables are set. Continue to the next section to configure the Model Optimizer.
 
