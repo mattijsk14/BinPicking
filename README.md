@@ -1,4 +1,10 @@
 # Bin Picking with UR5 Cobot
+
+> NOTE: THIS ENVIRONMENT IS UNDER CONSTRUCTION
+>
+> Please wait for the first build,
+> For questions or recommendations you can send an email to 471402@student.saxion.nl
+
 ![adsf](https://user-images.githubusercontent.com/79080234/118650396-b4485d80-b7e4-11eb-8b47-f03d05e061ab.png)
 
 
