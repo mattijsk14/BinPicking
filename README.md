@@ -16,4 +16,4 @@ Add brief explanation of the project.
 
 **Installation Manual:**
 
-How to install all of the repositories for running this project can be seen [here](https://github.com/mattijsk14/BinPicking/blob/main/InstallationManual.md).
+How to install all of the repositories for running this project can be seen [here](https://github.com/mattijsk14/BinPicking/tree/main/Installation).
