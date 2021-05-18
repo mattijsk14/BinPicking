@@ -44,7 +44,7 @@ mkdir ~/opencv_build && cd ~/opencv_build
 git clone https://github.com/opencv/opencv.git
 git clone https://github.com/opencv/opencv_contrib.git
 ```
-#### 2.1.4. Once the download is complete, create a build directory and cd into it:
+#### 2.1.4. Once the download is complete, create a `build directory` and `cd` into it:
 ```
 cd ~/opencv_build/opencv
 mkdir build && cd build
