@@ -15,8 +15,7 @@ Includes optimized calls for computer vision standards including OpenCV* and Ope
 
 | Component | Description |
 | --- | --- |
-| [Model Optimizer](https://docs.openvinotoolkit.org/2020.2/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html) | This tool imports, converts, and optimizes models that were trained in popular frameworks to a format usable by Intel tools, especially the Inference Engine. 
-Popular frameworks include Caffe*, TensorFlow*, MXNet*, and ONNX*. | 
+| [Model Optimizer](https://docs.openvinotoolkit.org/2020.2/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html) | This tool imports, converts, and optimizes models that were trained in popular frameworks to a format usable by Intel tools, especially the Inference Engine. Popular frameworks include Caffe*, TensorFlow*, MXNet*, and ONNX*. | 
 | [Inference Engine](https://docs.openvinotoolkit.org/2020.2/_docs_IE_DG_inference_engine_intro.html) | This is the engine that runs the deep learning model. It includes a set of libraries for an easy inference integration into your applications. |
 | Drivers for OpenCL™ | Enables OpenCL on the GPU/CPU for Intel® processors | 
 | Intel® Media SDK | Offers access to hardware accelerated video codecs and frame processing | 
