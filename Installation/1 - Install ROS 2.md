@@ -11,6 +11,9 @@ Note: Ardent and beta versions supported Ubuntu Xenial Xerus 16.04.
 You will need to add the ROS 2 apt repositories to your system. To do so, first authorize our GPG key with apt like this:
 ```
 sudo apt update && sudo apt install curl gnupg2 lsb-release
+```
+And
+```
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
 #### 2. And then add the repository to your sources list:
