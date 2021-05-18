@@ -26,6 +26,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 - The version for this project is: `ros2-dashing-20201202-linux-bionic-amd64.tar.bz2` .
 - Unpack it with the next commands:
 ```
+cd
 mkdir -p ~/ros2_dashing
 cd ~/ros2_dashing
 tar xf ~/Downloads/ros2-dashing-20201202-linux-bionic-amd64.tar.bz2
