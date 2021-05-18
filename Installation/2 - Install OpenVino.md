@@ -69,10 +69,20 @@ cd l_openvino_toolkit_p_2021.3.394
 ```
 sudo ./install_GUI.sh
 ```
-- Note: Follow the instructions on your screen.
-- When installed as root the default installation directory for the Intel Distribution of OpenVINO is ```/opt/intel/openvino_<version>/.```
+- Follow the instructions on your screen as follows:
+  1. Click `next`
+  2. Accept the terms of the license agreement
+  3. Click `next`
+  4. Agree or disagree to the collection of your information, recommended: `I do NOT consent`
+  5. Click `next`
+  6. Click `next`
+  7. Click `install`
+  8. Click `finish` when installation is completed
+  9. Now, linux will open a browserpage, ignore this and continue this tutorial at step 2.2.6!
+
+- When installed as root the default installation directory for the Intel Distribution of OpenVINO is ```/opt/intel/openvino_2021.3.394/.```
 - Note: For simplicity, a symbolic link to the latest installation is also created: ```/opt/intel/openvino/```.
-- 
+
 #### 2.2.6. A completement screen indicates that the core components have been installed.
 
 ## 2.3 Install External Software Dependencies
