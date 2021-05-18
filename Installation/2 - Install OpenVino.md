@@ -35,7 +35,8 @@ sudo ./install_GUI.sh
 - Note: Follow the instructions on your screen.
 - When installed as root the default installation directory for the Intel Distribution of OpenVINO is ```/opt/intel/openvino_<version>/.```
 - Note: For simplicity, a symbolic link to the latest installation is also created: ```/opt/intel/openvino/```.
-- A completement screen indicates that the core components have been installed.
+- 
+#### 6. A completement screen indicates that the core components have been installed.
 
 ## Install External Software Dependencies
 These dependencies are required for:
