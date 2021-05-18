@@ -32,7 +32,8 @@ Includes optimized calls for computer vision standards including OpenCV* and Ope
 To install openVINO software First Install OpenCV and CMake
 #### 2.1.1. Before installing any software in Linux be sure to update your repositories with
 ```
-sudo apt update && upgrade
+sudo apt update
+sudo apt upgrade
 ```
 #### 2.1.2. Install the required dependencies:
 ```
