@@ -1,6 +1,6 @@
 # Bin Picking with UR5 Cobot
 
-> NOTE: THIS ENVIRONMENT IS UNDER CONSTRUCTION
+> **THIS ENVIRONMENT IS UNDER CONSTRUCTION**
 > 
 > Please wait for the first build,
 > For questions or recommendations you can send an email to 471402@student.saxion.nl
@@ -10,12 +10,12 @@ ___
 >
 >**Minor Robotics and vision**
 >
->Saxion University of Applied Science, Enschede, The Netherlands
+>>Saxion University of Applied Science, Enschede, The Netherlands
 >
->By:
->Mattijs Kok,
->Jeroen Koster,
->Denny van Tolij
+>>By:
+>>Mattijs Kok,
+>>Jeroen Koster,
+>>Denny van Tolij
 ___
 ### The assignment:
 
