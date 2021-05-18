@@ -14,10 +14,7 @@ ___
 >
 >>Saxion University of Applied Science, Enschede, The Netherlands
 >
->>By:
->>Mattijs Kok,
->>Jeroen Koster,
->>Denny van Tolij
+>By: Mattijs Kok, Jeroen Koster, Denny van Tolij
 ___
 
 
