@@ -46,7 +46,7 @@ cd ~/Downloads/
 ```
 - Note: By default, the file is saved as l_openvino_toolkit_p_<version>.tgz.
 
-#### 2.2.3. Unpack the .tgz file:
+#### 2.2.3. Unpack the ```.tgz``` file:
 ```
 tar -xvzf l_openvino_toolkit_p_<version>.tgz
 ```
@@ -96,7 +96,7 @@ source /opt/intel/openvino/bin/setupvars.sh
 ```
 
 
-#### 2.4.1. Open the .bashrc file in <user_directory>:
+#### 2.4.1. Open the ```.bashrc``` file in ```<user_directory>```:
 ```
 vi <user_directory>/.bashrc
 ```
