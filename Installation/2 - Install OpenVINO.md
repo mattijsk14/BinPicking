@@ -1,4 +1,4 @@
-# 2 - Install OpenVino
+# 2 - Install OpenVINO
 _Source: [docs.openvinotoolkit.org](https://docs.openvinotoolkit.org/2020.2/_docs_install_guides_installing_openvino_linux.html)_
 
 > When following this installation guide, make sure [ROS 2](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) is installed on your Ubuntu 18.04.
