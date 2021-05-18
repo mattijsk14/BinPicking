@@ -23,7 +23,7 @@ ___
 - ROS 2
 - Ubuntu 18.04
 - Intel GPU/CPU
-- Intel RealSense D435i RGP-D Camera (may also work with other versions of the RealSense, not tested)
+- Intel RealSense D435i RGB-D Camera (may also work with other versions of the RealSense, not tested)
 
 ### Installation Manual:
 
