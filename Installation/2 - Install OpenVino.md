@@ -28,44 +28,11 @@ Includes optimized calls for computer vision standards including OpenCV* and Ope
 | [Documentation for pre-trained models](https://docs.openvinotoolkit.org/2020.2/_models_intel_index.html) | Documentation for the pre-trained models available in the [Open Model Zoo repo](https://github.com/openvinotoolkit/open_model_zoo) | 
 
 
-## 2.1 Install OpenCV and CMake
-To install openVINO software First Install OpenCV and CMake
-#### 2.1.1. Before installing any software in Linux be sure to update your repositories with
+## 2.2 Install the Intel® Distribution of OpenVINO™ Toolkit Core Components
+#### 2.2.1. Download the Intel® Distribution of OpenVINO™ toolkit package file from [Intel® Distribution of OpenVINO™ toolkit for Linux](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html?operatingsystem=linux&distributions=github). Or enter the following commands: 
 ```
 sudo apt update
 sudo apt upgrade
-```
-#### 2.1.2. Install the required dependencies:
-```
-sudo apt install build-essential cmake git pkg-config libgtk-3-dev \ libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \ libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \ gfortran openexr libatlas-base-dev python3-dev python-numpy \ libtbb2 libtbb-dev libdc1394–22-dev
-```
-#### 2.1.3. Create an opencv_build directory, cd into it and then clone the OpenCV and OpenCV contrib repositories:
-```
-mkdir ~/opencv_build && cd ~/opencv_build
-git clone https://github.com/opencv/opencv.git
-git clone https://github.com/opencv/opencv_contrib.git
-```
-#### 2.1.4. Once the download is complete, create a `build directory` and `cd` into it:
-```
-cd ~/opencv_build/opencv
-mkdir build && cd build
-```
-#### 2.1.5. Now setup the build with CMake:
-```
-cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INSTALL_C_EXAMPLES=ON \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D OPENCV_GENERATE_PKGCONFIG=ON \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \ -D BUILD_EXAMPLES=ON ..
-```
-#### 2.1.6. Start compiling with the make and then install, then verify if it was installed correctly:
-```
-make -j(number of cores your CPU has), e.g. make -j2 or make -j4
-sudo make install
-python3 -c "import cv2; print(cv2.__version__)
-```
-Now you are ready to install OpenVino
-
-## 2.2 Install the Intel® Distribution of OpenVINO™ Toolkit Core Components
-#### 2.2.1. Download the Intel® Distribution of OpenVINO™ toolkit package file from [Intel® Distribution of OpenVINO™ toolkit for Linux](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html?operatingsystem=linux&distributions=github). 
-```
-sudo apt update && upgrade
 git clone https://github.com/openvinotoolkit/openvino.git
 ```
 #### 2.2.2. Change directories to where you downloaded the Intel Distribution of OpenVINO toolkit for Linux* package file.
