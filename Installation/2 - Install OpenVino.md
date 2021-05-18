@@ -53,12 +53,12 @@ cd ~/Downloads/
 ```
 tar -xvzf l_openvino_toolkit_p_2021.3.394.tgz
 ```
-- Note: The files are unpacked to the l_openvino_toolkit_p_<version> directory.
+- Note: The files are unpacked to the l_openvino_toolkit_p_2021.3.394 directory.
 
 #### 2.2.4. Go to the directory:
 
 ```
-cd l_openvino_toolkit_p_<version>
+cd l_openvino_toolkit_p_2021.3.394
 ```
 - Note: If you have a previous version of the Intel Distribution of OpenVINO toolkit installed, rename or delete these two directories: 
 ```
