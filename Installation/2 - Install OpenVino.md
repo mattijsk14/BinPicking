@@ -165,5 +165,6 @@ When the verification script completes, you will see an image that displays the 
 #### 2.7.4. Close the image viewer window to complete the verification script.
 You have completed all required installation, configuration and build steps in this guide to use your CPU to work with your trained models.
 
+#### Installation of OpenVINO completed!
 
 [Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) /  [Next]()
