@@ -134,7 +134,7 @@ For more information about the Model Optimizer, refer to the [Model Optimizer De
 
 #### 2.6.1. Go to the Model Optimizer prerequisites directory:
 ```
-cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
+cd /opt/intel/openvino_2021/deployment_tools/model_optimizer/install_prerequisites
 ```
 #### 2.6.2. Run the script to configure the Model Optimizer for Caffe, TensorFlow, MXNet, Kaldi*, and ONNX:
 ```
@@ -144,7 +144,7 @@ sudo ./install_prerequisites.sh
 ## 2.7 Run the Verification Scripts to Verify Installation
 #### 2.7.1. Go to the Inference Engine demo directory:
 ```
-cd /opt/intel/openvino/deployment_tools/demo
+cd /opt/intel/openvino_2021/deployment_tools/demo
 ```
 #### 2.7.2. Run the Image Classification verification script:
 ```
