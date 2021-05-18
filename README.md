@@ -12,7 +12,7 @@ Add brief explanation of the project.
 - ROS 2
 - Ubuntu 18.04
 - Intel GPU/CPU
-- En VEEEEEL meer
+- 
 
 ### Installation Manual:
 
