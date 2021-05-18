@@ -12,7 +12,7 @@
 >
 >**Minor Robotics and vision**
 >
->>Saxion University of Applied Science, Enschede, The Netherlands
+>Saxion University of Applied Science, Enschede, The Netherlands
 >
 >By: Mattijs Kok, Jeroen Koster, Denny van Tolij
 ___
