@@ -1,5 +1,7 @@
 # Bin Picking with UR5 Cobot
 
+This package contains ...........................
+
 > **THIS ENVIRONMENT IS UNDER CONSTRUCTION**
 > 
 > Please wait for the first build,
@@ -17,9 +19,7 @@ ___
 >>Jeroen Koster,
 >>Denny van Tolij
 ___
-### The assignment:
 
-Add brief explanation of the project.
 
 ### System Requirements:
 
