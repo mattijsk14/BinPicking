@@ -68,7 +68,7 @@ In the second terminal, run the py listener:
 . ~/ros2_dashing/ros2-linux/setup.bash
 ros2 run demo_nodes_py listener
 ```
-You should see the talker saying that it’s Publishing messages and the listener saying I heard those messages. This verifies both the C++ and Python APIs are working properly.
+You should see the talker saying that it’s Publishing messages and the listener saying I heard those messages. This verifies both the C++ and Python APIs are working properly. Press `crtl+c` to stop on both terminals.
 
 #### 9. Using the ROS 1 bridge
 The ROS 1 bridge can connect topics from ROS 1 to ROS 2 and vice-versa. See the dedicated [documentation](https://github.com/ros2/ros1_bridge/blob/master/README.md) on how to build and use the ROS 1 bridge.
