@@ -78,4 +78,4 @@ If you installed your workspace with colcon as instructed above, “uninstalling
 
 If you’re also trying to free up space, you can delete the entire workspace directory with: `rm -rf ~/ros2_dashing`
 
-[Next step of the installation](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVino.md)
+[Next](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md)
