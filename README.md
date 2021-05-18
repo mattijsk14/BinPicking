@@ -5,13 +5,13 @@ Mattijs Kok, Jeroen Koster, Denny van Tolij
 
 **The assignment:**
 
-*Brief explanation of the project.*
+Add brief explanation of the project.
 
 **System Requirements:**
 
--ROS 2
-
--Intel GPU/CPU
+- ROS 2
+- Intel GPU/CPU
+- En VEEEEEL meer
 
 **Installation Manual:**
 
