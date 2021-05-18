@@ -1,7 +1,7 @@
 # Bin Picking with UR5 Cobot
 
 ## This package contains an known-object detection, recognition and grasping solution for the UR5 cobot. 
-___
+
 > **THIS ENVIRONMENT IS UNDER CONSTRUCTION**
 > 
 > Please wait for the first build,
