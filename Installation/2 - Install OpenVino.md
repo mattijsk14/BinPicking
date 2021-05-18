@@ -1,4 +1,4 @@
-# 2 Install OpenVino
+# 2 - Install OpenVino
 
 ## Install the Intel® Distribution of OpenVINO™ Toolkit Core Components
 #### 1. Download the Intel® Distribution of OpenVINO™ toolkit package file from [Intel® Distribution of OpenVINO™ toolkit for Linux](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html?operatingsystem=linux&distributions=github). 
