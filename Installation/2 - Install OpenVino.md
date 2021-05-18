@@ -11,7 +11,7 @@ Supports heterogeneous execution across Intel® CPU, Intel® Integrated Graphics
 Speeds time-to-market via an easy-to-use library of computer vision functions and pre-optimized kernels
 Includes optimized calls for computer vision standards including OpenCV* and OpenCL™
 
-- Included with the Installation and installed by default:
+**- Included with the Installation and installed by default:**
 
 | Component | Description |
 | --- | --- |
