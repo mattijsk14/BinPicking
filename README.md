@@ -1,4 +1,6 @@
 # Bin Picking with UR5 Cobot
+![image](https://user-images.githubusercontent.com/79080234/118650250-84995580-b7e4-11eb-91f0-f9f010317d5a.png)
+
 ### Minor Robotics and vision
 - Saxion University of Applied Science, Enschede, The Netherlands
 - Mattijs Kok, Jeroen Koster, Denny van Tolij
