@@ -12,3 +12,7 @@ Mattijs Kok, Jeroen Koster, Denny van Tolij
 -ROS 2
 
 -Intel GPU/CPU
+
+**Installation Manual:**
+
+How to install all of the repositories for running this project can be seen [here](https://github.com/mattijsk14/BinPicking/blob/main/InstallationManual.md).
