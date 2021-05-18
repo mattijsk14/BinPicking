@@ -1,31 +1,31 @@
 # 2 - Install OpenVino
 
-## Install OpenCV and CMake
+## 2.1 Install OpenCV and CMake
 To install openVINO software First Install OpenCV and CMake
-#### 1. Before installing any software in Linux be sure to update your repositories with
+#### 2.1.1. Before installing any software in Linux be sure to update your repositories with
 ```
 sudo apt update && upgrade
 ```
-#### 2. Install the required dependencies:
+#### 2.1.2. Install the required dependencies:
 ```
 sudo apt install build-essential cmake git pkg-config libgtk-3-dev \ libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \ libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \ gfortran openexr libatlas-base-dev python3-dev python-numpy \ libtbb2 libtbb-dev libdc1394–22-dev
 ```
-#### 3. Create an opencv_build directory, cd into it and then clone the OpenCV and OpenCV contrib repositories:
+#### 2.1.3. Create an opencv_build directory, cd into it and then clone the OpenCV and OpenCV contrib repositories:
 ```
 mkdir ~/opencv_build && cd ~/opencv_build
 git clone https://github.com/opencv/opencv.git
 git clone https://github.com/opencv/opencv_contrib.git
 ```
-#### 4. Once the download is complete, create a build directory and cd into it:
+#### 2.1.4. Once the download is complete, create a build directory and cd into it:
 ```
 cd ~/opencv_build/opencv
 mkdir build && cd build
 ```
-#### 5. Now setup the build with CMake:
+#### 2.1.5. Now setup the build with CMake:
 ```
 cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INSTALL_C_EXAMPLES=ON \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D OPENCV_GENERATE_PKGCONFIG=ON \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \ -D BUILD_EXAMPLES=ON ..
 ```
-#### 6. Start compiling with the make and then install, then verify if it was installed correctly:
+#### 2.1.6. Start compiling with the make and then install, then verify if it was installed correctly:
 ```
 make -j(number of cores your CPU has), e.g. make -j2 or make -j4
 sudo make install
@@ -33,26 +33,26 @@ python3 -c "import cv2; print(cv2.__version__)
 ```
 Now you are ready to install OpenVino
 
-## Install the Intel® Distribution of OpenVINO™ Toolkit Core Components
-#### 1. Download the Intel® Distribution of OpenVINO™ toolkit package file from [Intel® Distribution of OpenVINO™ toolkit for Linux](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html?operatingsystem=linux&distributions=github). 
+## 2.2 Install the Intel® Distribution of OpenVINO™ Toolkit Core Components
+#### 2.2.1. Download the Intel® Distribution of OpenVINO™ toolkit package file from [Intel® Distribution of OpenVINO™ toolkit for Linux](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html?operatingsystem=linux&distributions=github). 
 ```
 sudo apt update && upgrade
 git clone https://github.com/openvinotoolkit/openvino.git
 ```
-#### 2. Change directories to where you downloaded the Intel Distribution of OpenVINO toolkit for Linux* package file.
+#### 2.2.2. Change directories to where you downloaded the Intel Distribution of OpenVINO toolkit for Linux* package file.
 If you downloaded the package file to the current user's Downloads directory:
 ```
 cd ~/Downloads/
 ```
 - Note: By default, the file is saved as l_openvino_toolkit_p_<version>.tgz.
 
-#### 3. Unpack the .tgz file:
+#### 2.2.3. Unpack the .tgz file:
 ```
 tar -xvzf l_openvino_toolkit_p_<version>.tgz
 ```
 - Note: The files are unpacked to the l_openvino_toolkit_p_<version> directory.
 
-#### 4. Go to the directory:
+#### 2.2.4. Go to the directory:
 
 ```
 cd l_openvino_toolkit_p_<version>
@@ -62,7 +62,7 @@ cd l_openvino_toolkit_p_<version>
 ~/inference_engine_samples_build
 ~/openvino_models
 ```
-#### 5. Install with GUI installation wizard:
+#### 2.2.5. Install with GUI installation wizard:
 ```
 sudo ./install_GUI.sh
 ```
@@ -70,45 +70,45 @@ sudo ./install_GUI.sh
 - When installed as root the default installation directory for the Intel Distribution of OpenVINO is ```/opt/intel/openvino_<version>/.```
 - Note: For simplicity, a symbolic link to the latest installation is also created: ```/opt/intel/openvino/```.
 - 
-#### 6. A completement screen indicates that the core components have been installed.
+#### 2.2.6. A completement screen indicates that the core components have been installed.
 
-## Install External Software Dependencies
+## 2.3 Install External Software Dependencies
 These dependencies are required for:
 - Intel-optimized build of OpenCV library
 - Deep Learning Inference Engine
 - Deep Learning Model Optimizer tools
 
-#### 1. Change to the ``` install_dependencies``` directory:
+#### 2.3.1. Change to the ``` install_dependencies``` directory:
 ```
 cd /opt/intel/openvino/install_dependencies
 ```
 
-#### 2. Run a script to download and install the external software dependencies:
+#### 2.3.2. Run a script to download and install the external software dependencies:
 ```
 sudo -E ./install_openvino_dependencies.sh
 ```
 The dependencies are installed. Continue to the next section to set your environment variables.
 
-## Set the Envionment Variables
+## 2.4 Set the Envionment Variables
 You must update several environment variables before you can compile and run OpenVINO™ applications. Run the following script to temporarily set your environment variables:
 ```
 source /opt/intel/openvino/bin/setupvars.sh
 ```
 
 
-#### 1. Open the .bashrc file in <user_directory>:
+#### 2.4.1. Open the .bashrc file in <user_directory>:
 ```
 vi <user_directory>/.bashrc
 ```
-#### 2. Add this line to the end of the file:
+#### 2.4.2. Add this line to the end of the file:
 ```
 source /opt/intel/openvino/bin/setupvars.sh
 ```
-#### 3. Save and close the file: press the ```Esc``` key and type ```:wq```.
-#### 4. To test your change, open a new terminal. You will see ```[setupvars.sh] OpenVINO environment initialized.```
+#### 2.4.3. Save and close the file: press the ```Esc``` key and type ```:wq```.
+#### 2.4.4. To test your change, open a new terminal. You will see ```[setupvars.sh] OpenVINO environment initialized.```
 The environment variables are set. Continue to the next section to configure the Model Optimizer.
 
-## Configure the Model Optimizer
+## 2.5 Configure the Model Optimizer
 The Model Optimizer is a Python*-based command line tool for importing trained models from popular deep learning frameworks such as Caffe*, TensorFlow*, Apache MXNet*, ONNX* and Kaldi*.
 
 The Model Optimizer is a key component of the Intel Distribution of OpenVINO toolkit. You cannot perform inference on your trained model without running the model through the Model Optimizer. When you run a pre-trained model through the Model Optimizer, your output is an Intermediate Representation (IR) of the network. The Intermediate Representation is a pair of files that describe the whole model:
@@ -117,29 +117,29 @@ The Model Optimizer is a key component of the Intel Distribution of OpenVINO too
 .bin: Contains the weights and biases binary data
 For more information about the Model Optimizer, refer to the [Model Optimizer Developer Guide](https://docs.openvinotoolkit.org/2020.2/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html). 
 
-#### Configure all supported frameworks at the same time
+#### 2.6 Configure all supported frameworks at the same time
 
-#### 1. Go to the Model Optimizer prerequisites directory:
+#### 2.6.1. Go to the Model Optimizer prerequisites directory:
 ```
 cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
 ```
-#### 2. Run the script to configure the Model Optimizer for Caffe, TensorFlow, MXNet, Kaldi*, and ONNX:
+#### 2.6.2. Run the script to configure the Model Optimizer for Caffe, TensorFlow, MXNet, Kaldi*, and ONNX:
 ```
 sudo ./install_prerequisites.sh
 ```
 
-## Run the Verification Scripts to Verify Installation
-#### 1. Go to the Inference Engine demo directory:
+## 2.7 Run the Verification Scripts to Verify Installation
+#### 2.7.1. Go to the Inference Engine demo directory:
 ```
 cd /opt/intel/openvino/deployment_tools/demo
 ```
-#### 2. Run the Image Classification verification script:
+#### 2.7.2. Run the Image Classification verification script:
 ```
 ./demo_squeezenet_download_convert_run.sh
 ```
 This verification script downloads a SqueezeNet model, uses the Model Optimizer to convert the model to the .bin and .xml Intermediate Representation (IR) files. The Inference Engine requires this model conversion so it can use the IR as input and achieve optimum performance on Intel hardware.
 
-#### 3. Run the Inference Pipeline verification script:
+#### 2.7.3. Run the Inference Pipeline verification script:
 ```
 ./demo_security_barrier_camera.sh
 ```
@@ -149,7 +149,7 @@ First, an object is identified as a vehicle. This identification is used as inpu
 
 When the verification script completes, you will see an image that displays the resulting frame with detections rendered as bounding boxes, and text.
 
-#### 4. Close the image viewer window to complete the verification script.
+#### 2.7.4. Close the image viewer window to complete the verification script.
 
 
 
