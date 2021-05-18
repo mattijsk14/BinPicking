@@ -76,9 +76,6 @@ The ROS 1 bridge can connect topics from ROS 1 to ROS 2 and vice-versa. See the 
 #### 10. Uninstall ROS 2
 If you installed your workspace with colcon as instructed above, “uninstalling” could be just a matter of opening a new terminal and not sourcing the workspace’s setup file. This way, your environment will behave as though there is no Dashing install on your system.
 
-If you’re also trying to free up space, you can delete the entire workspace directory with:
-```
-rm -rf ~/ros2_dashing
-```
+If you’re also trying to free up space, you can delete the entire workspace directory with: `rm -rf ~/ros2_dashing`
 
 [Next step of the installation](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVino.md)
