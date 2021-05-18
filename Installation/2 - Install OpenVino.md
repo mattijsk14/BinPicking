@@ -93,7 +93,7 @@ These dependencies are required for:
 
 #### 2.3.1. Change to the ``` install_dependencies``` directory:
 ```
-cd /opt/intel/openvino/install_dependencies
+cd /opt/intel/openvino_2021/install_dependencies
 ```
 
 #### 2.3.2. Run a script to download and install the external software dependencies:
