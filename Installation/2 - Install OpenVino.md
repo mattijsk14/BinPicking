@@ -1,6 +1,8 @@
 # 2 - Install OpenVino
 _Source: [docs.openvinotoolkit.org](https://docs.openvinotoolkit.org/2020.2/_docs_install_guides_installing_openvino_linux.html)_
 
+> When following this installation guide, make sure [ROS 2](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) is installed on your Ubuntu 18.04.
+
 #### Introduction
 The Intel® Distribution of OpenVINO™ toolkit quickly deploys applications and solutions that emulate human vision. Based on Convolutional Neural Networks (CNN), the toolkit extends computer vision (CV) workloads across Intel® hardware, maximizing performance. The Intel® Distribution of OpenVINO™ toolkit includes the Intel® Deep Learning Deployment Toolkit (Intel® DLDT).
 
