@@ -1,4 +1,3 @@
-
 ___
 # 1 - Install ROS2
 Installation manual for installing ROS2 (on Ubuntu 18.04).
@@ -66,7 +65,5 @@ If you’re also trying to free up space, you can delete the entire workspace di
 ```
 rm -rf ~/ros2_dashing
 ```
-
-
-
 ___
+
