@@ -30,7 +30,7 @@ mkdir -p ~/ros2_dashing
 cd ~/ros2_dashing
 tar xf ~/Downloads/ros2-dashing-20201202-linux-bionic-amd64.tar.bz2
 ```
-
+- note:  this will take about 2-5 minutes
 #### 4. Installing and initializing rosdep
 ```
 sudo apt update
