@@ -1,4 +1,31 @@
 # 2 - Install OpenVino
+[docs.openvinotoolkit.org](https://docs.openvinotoolkit.org/2020.2/_docs_install_guides_installing_openvino_linux.html)
+
+Introduction
+The Intel® Distribution of OpenVINO™ toolkit quickly deploys applications and solutions that emulate human vision. Based on Convolutional Neural Networks (CNN), the toolkit extends computer vision (CV) workloads across Intel® hardware, maximizing performance. The Intel® Distribution of OpenVINO™ toolkit includes the Intel® Deep Learning Deployment Toolkit (Intel® DLDT).
+
+The Intel® Distribution of OpenVINO™ toolkit for Linux*:
+
+Enables CNN-based deep learning inference on the edge
+Supports heterogeneous execution across Intel® CPU, Intel® Integrated Graphics, Intel® Movidius™ Neural Compute Stick, Intel® Neural Compute Stick 2, and Intel® Vision Accelerator Design with Intel® Movidius™ VPUs
+Speeds time-to-market via an easy-to-use library of computer vision functions and pre-optimized kernels
+Includes optimized calls for computer vision standards including OpenCV* and OpenCL™
+
+- Included with the Installation and installed by default:
+
+| Component | Description |
+| --- | --- |
+| [Model Optimizer](https://docs.openvinotoolkit.org/2020.2/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html) | This tool imports, converts, and optimizes models that were trained in popular frameworks to a format usable by Intel tools, especially the Inference Engine. 
+Popular frameworks include Caffe*, TensorFlow*, MXNet*, and ONNX*. | 
+| [Inference Engine](https://docs.openvinotoolkit.org/2020.2/_docs_IE_DG_inference_engine_intro.html) | This is the engine that runs the deep learning model. It includes a set of libraries for an easy inference integration into your applications. |
+| Drivers for OpenCL™ | Enables OpenCL on the GPU/CPU for Intel® processors | 
+| Intel® Media SDK | Offers access to hardware accelerated video codecs and frame processing | 
+| [OpenCV](https://docs.opencv.org/master/) | OpenCV* community version compiled for Intel® hardware | 
+| [Sample Applications](https://docs.openvinotoolkit.org/2020.2/_docs_IE_DG_Samples_Overview.html) | A set of simple console applications demonstrating how to use the Inference Engine in your applications | 
+| [Demos](https://docs.openvinotoolkit.org/2020.2/_demos_README.html) | 	A set of console applications that demonstrate how you can use the Inference Engine in your applications to solve specific use-cases | 
+| [Additional Tools](https://docs.openvinotoolkit.org/2020.2/_docs_IE_DG_Tools_Overview.html) | 	A set of tools to work with your models | 
+| [Documentation for pre-trained models](https://docs.openvinotoolkit.org/2020.2/_models_intel_index.html) | Documentation for the pre-trained models available in the [Open Model Zoo repo](https://github.com/openvinotoolkit/open_model_zoo) | 
+
 
 ## 2.1 Install OpenCV and CMake
 To install openVINO software First Install OpenCV and CMake
