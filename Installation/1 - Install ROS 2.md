@@ -55,16 +55,17 @@ pip3 install -U argcomplete
 #### 7. Environment setup
 ```
 . ~/ros2_dashing/ros2-linux/setup.bash
-source /opt/ros/dashing/setup.bash
 ```
 #### 8. Testing your ROS2 Dashing
 
 Open 2 terminals, in the first terminal set up the ROS 2 environment as described and run a C++ talker:
 ```
+. ~/ros2_dashing/ros2-linux/setup.bash
 ros2 run demo_nodes_cpp talker
 ```
 In the second terminal, run the py listener:
 ```
+. ~/ros2_dashing/ros2-linux/setup.bash
 ros2 run demo_nodes_py listener
 ```
 You should see the talker saying that it’s Publishing messages and the listener saying I heard those messages. This verifies both the C++ and Python APIs are working properly.
