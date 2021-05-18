@@ -105,17 +105,17 @@ The dependencies are installed. Continue to the next section to set your environ
 ## 2.4 Set the Envionment Variables
 You must update several environment variables before you can compile and run OpenVINO™ applications. Run the following script to temporarily set your environment variables:
 ```
-source /opt/intel/openvino/bin/setupvars.sh
+source /opt/intel/openvino_2021/bin/setupvars.sh
 ```
 
 
 #### 2.4.1. Open the ```.bashrc``` file in ```<user_directory>```:
 ```
-vi <user_directory>/.bashrc
+vi /.bashrc
 ```
 #### 2.4.2. Add this line to the end of the file:
 ```
-source /opt/intel/openvino/bin/setupvars.sh
+source /opt/intel/openvino_2021/bin/setupvars.sh
 ```
 #### 2.4.3. Save and close the file: press the ```Esc``` key and type ```:wq```.
 #### 2.4.4. To test your change, open a new terminal. You will see ```[setupvars.sh] OpenVINO environment initialized.```
