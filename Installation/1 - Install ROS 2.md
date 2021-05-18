@@ -20,12 +20,12 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 ```
 #### 3. Downloading ROS 2
 - Go to [the releases page](https://github.com/ros2/ros2/releases) or download the dashing version [now](https://github.com/ros2/ros2/releases/download/release-dashing-20201202/ros2-dashing-20201202-linux-bionic-amd64.tar.bz2). Choose the option ` save ` in the pop-up window. _(downloading this release will take about 2 minutes.)_
-- The version for this project is: `~/Downloads/ros2-dashing-linux-x86_64.tar.bz2` .
+- The version for this project is: `ros2-dashing-20201202-linux-bionic-amd64.tar.bz2` .
 - Unpack it with the next commands:
 ```
 mkdir -p ~/ros2_dashing
 cd ~/ros2_dashing
-tar xf ~/Downloads/ros2-dashing-linux-x86_64.tar.bz2
+tar xf ~/Downloads/ros2-dashing-20201202-linux-bionic-amd64.tar.bz2
 ```
 
 #### 4. Installing and initializing rosdep
