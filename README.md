@@ -5,8 +5,7 @@
 > Please wait for the first build,
 > For questions or recommendations you can send an email to 471402@student.saxion.nl
 
-
-
+___
 >![adsf](https://user-images.githubusercontent.com/79080234/118650396-b4485d80-b7e4-11eb-8b47-f03d05e061ab.png)
 >
 >**Minor Robotics and vision**
@@ -17,7 +16,7 @@
 >Mattijs Kok,
 >Jeroen Koster,
 >Denny van Tolij
-
+___
 ### The assignment:
 
 Add brief explanation of the project.
