@@ -1,6 +1,6 @@
 # Bin Picking with UR5 Cobot
 
-## This package contains an known-object detection, recognition and grasping solution for the UR5 cobot. 
+### This package contains an known-object detection, recognition and grasping solution for the UR5 cobot made and optimised for ROS 2 with Intel's openVINO packages. 
 
 > **THIS ENVIRONMENT IS UNDER CONSTRUCTION**
 > 
