@@ -7,11 +7,16 @@
 
 
 
-![adsf](https://user-images.githubusercontent.com/79080234/118650396-b4485d80-b7e4-11eb-8b47-f03d05e061ab.png)
-
-**Minor Robotics and vision**
-- Saxion University of Applied Science, Enschede, The Netherlands
-- Mattijs Kok, Jeroen Koster, Denny van Tolij
+>![adsf](https://user-images.githubusercontent.com/79080234/118650396-b4485d80-b7e4-11eb-8b47-f03d05e061ab.png)
+>
+>**Minor Robotics and vision**
+>
+>Saxion University of Applied Science, Enschede, The Netherlands
+>
+>By:
+>Mattijs Kok,
+>Jeroen Koster,
+>Denny van Tolij
 
 ### The assignment:
 
