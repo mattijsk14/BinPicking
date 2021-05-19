@@ -30,6 +30,7 @@ sudo make install
 #### 2.2. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
 ```
+cd
 cd ros2_dashing/ros2-linux/src
 git clone https://github.com/sharronliu/gpd.git
 git checkout libgpd
