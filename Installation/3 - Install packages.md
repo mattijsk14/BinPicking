@@ -34,7 +34,7 @@ cd
 cd ros2_dashing/ros2-linux/src
 git clone https://github.com/sharronliu/gpd.git
 git checkout libgpd
-cd gpd/src/gpd
+cd gpd
 ```
 Build the library:
 ```
