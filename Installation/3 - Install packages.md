@@ -27,6 +27,7 @@ cmake -DUSE_OPENVINO=ON ..
 make
 sudo make install
 ```
+error bij cmake
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
 
