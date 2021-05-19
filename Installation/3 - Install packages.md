@@ -1,5 +1,5 @@
 # Installing all the needed packages
-
+> NOT FINISHED YET
 ## Grasp library with RGB-D Camera
 >Make sure you installed [OpenVINO](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md) & [ROS 2 dashing](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md)
 
