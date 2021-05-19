@@ -31,7 +31,7 @@ Includes optimized calls for computer vision standards including OpenCV* and Ope
 ## 2.2 Install the Intel® Distribution of OpenVINO™ Toolkit Core Components
 #### 2.2.1. Download the Intel® Distribution of OpenVINO™ toolkit package file 
 1. Download the package from [here](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html?operatingsystem=linux&distributions=webdownload&version=2021.3%20(latest)&options=offline). 
-2. Make sure you are signed in to Intel
+2. Make sure you are signed in to Intel Developers Zone
 3. Click `download`
 4. Click `save file`
 5. Click `OK`
@@ -47,18 +47,18 @@ If you downloaded the package file to the current user's Downloads directory:
 ```
 cd ~/Downloads/
 ```
-- Note: By default, the file is saved as l_openvino_toolkit_p_2021.3.394.tgz.
+- Note: By default, the file is saved as l_openvino_toolkit_p_[version].tgz.
 
 #### 2.2.3. Unpack the ```.tgz``` file:
 ```
-tar -xvzf l_openvino_toolkit_p_2021.3.394.tgz
+tar -xvzf l_openvino_toolkit_p_[version].tgz
 ```
-- Note: The files are unpacked to the l_openvino_toolkit_p_2021.3.394 directory.
+- Note: The files are unpacked to the l_openvino_toolkit_p_[version] directory.
 
 #### 2.2.4. Go to the directory:
 
 ```
-cd l_openvino_toolkit_p_2021.3.394
+cd l_openvino_toolkit_p_[version]
 ```
 - Note: If you have a previous version of the Intel Distribution of OpenVINO toolkit installed, rename or delete these two directories: 
 ```
