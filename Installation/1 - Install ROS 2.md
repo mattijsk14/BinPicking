@@ -71,10 +71,20 @@ ros2 run demo_nodes_py listener
 ```
 You should see the talker saying that it’s Publishing messages and the listener saying I heard those messages. This verifies both the C++ and Python APIs are working properly. Press `crtl+c` to stop on both terminals.
 
-#### 9. Using the ROS 1 bridge
+#### setup colcon environment
+Install colcon:
+```
+sudo apt install python3-colcon-common-extensions
+```
+Make your workspace:
+```
+mkdir -p ~/dev_ws
+cd ~/dev_ws
+```
+#### . Using the ROS 1 bridge
 The ROS 1 bridge can connect topics from ROS 1 to ROS 2 and vice-versa. See the dedicated [documentation](https://github.com/ros2/ros1_bridge/blob/master/README.md) on how to build and use the ROS 1 bridge.
 
-#### 10. Uninstall ROS 2
+#### . Uninstall ROS 2
 If you installed your workspace with colcon as instructed above, “uninstalling” could be just a matter of opening a new terminal and not sourcing the workspace’s setup file. This way, your environment will behave as though there is no Dashing install on your system.
 
 If you’re also trying to free up space, you can delete the entire workspace directory with: `rm -rf ~/ros2_dashing`
