@@ -12,6 +12,21 @@ sudo apt-get install libpcl-dev libeigen3-dev
 [Source] (https://github.com/intel/ros2_grasp_library/blob/master/grasp_tutorials/doc/grasp_ros2/install_gpd.md)
 
 
+#### 2.1. Install GPG
+Get the code:
+```
+cd ~/dev_ws
+git clone https://github.com/atenpas/gpg.git
+cd gpg
+```
+Build the library:
+```
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+```
+
 #### 2.1. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
 ```
