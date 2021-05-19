@@ -30,7 +30,7 @@ sudo make install
 #### 2.1. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
 ```
-cd
+cd ~/dev_ws
 git clone https://github.com/sharronliu/gpd.git
 cd gpd
 ```
