@@ -14,6 +14,7 @@ sudo apt-get install libpcl-dev libeigen3-dev
 ##### 2.1. Install GPG
 Get the code:
 ```
+cd ros2_dashing/ros2-linux/src
 git clone https://github.com/atenpas/gpg.git
 cd gpg
 ```
@@ -29,6 +30,7 @@ sudo make install
 #### 2.2. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
 ```
+cd ros2_dashing/ros2-linux/src
 git clone https://github.com/sharronliu/gpd.git
 git checkout libgpd
 cd gpd/src/gpd
