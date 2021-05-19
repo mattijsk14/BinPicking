@@ -11,33 +11,18 @@ sudo apt-get install libpcl-dev libeigen3-dev
 ### 2. Install Grasp Pose Detection package 
 [Source] (https://github.com/intel/ros2_grasp_library/blob/master/grasp_tutorials/doc/grasp_ros2/install_gpd.md)
 
-##### 2.1. Install GPG
-Get the code:
-```
-cd
-git clone https://github.com/atenpas/gpg.git
-cd gpg
-```
-Build the library:
-```
-mkdir build && cd build
-cmake ..
-make
-sudo make install
-```
-- note: by default, "libgrasp_candidates_generator.so" shall be installed to "/usr/local/lib"
 
-#### 2.2. Install GPD
+#### 2.1. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
 ```
 cd
 git clone https://github.com/sharronliu/gpd.git
-git checkout libgpd
 cd gpd
 ```
 Build the library:
 ```
-mkdir build && cd build
+mkdir build
+cd build
 cmake -DUSE_OPENVINO=ON ..
 make
 sudo make install
