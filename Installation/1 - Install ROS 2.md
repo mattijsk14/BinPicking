@@ -1,6 +1,6 @@
 # 1 - Install ROS 2  ![452](https://user-images.githubusercontent.com/79080234/118667055-f331df80-b7f3-11eb-9b9b-0debfd435b95.png)
 
-Installation manual for installing ROS 2 (on Ubuntu 18.04).
+Installation manual for installing ROS 2 Dashing (on Ubuntu 18.04).
 [_From Docs.Ros.org_](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html)
 
 ### System Requirements:
