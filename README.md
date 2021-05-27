@@ -20,7 +20,7 @@ ___
 
 ### System Requirements:
 
-- ROS 2
+- ROS 2 Dashing
 - Ubuntu 18.04
 - Intel GPU/CPU
 - Intel RealSense D435i RGB-D Camera (may also work with other versions of the RealSense, not tested)
