@@ -165,6 +165,23 @@ When the verification script completes, you will see an image that displays the 
 #### 2.7.4. Close the image viewer window to complete the verification script.
 You have completed all required installation, configuration and build steps in this guide to use your CPU to work with your trained models.
 
-#### Installation of OpenVINO completed! 
+#### Installation of OpenVINO completed!
 
+# 3. Uninstall OpenVino
+If you are done with OpenVino, follow these steps.
+
+###(1) Enter the installation path, find openvino_toolkit_uninstaller
+```
+cd /opt/intel/openvino/openvino_toolkit_uninstaller
+```
+###(2) If there is ubuntu use the GNOME desktop, try to uninstall using the GUI interface, more convenient. Please uninstall instructions step by step according to the operation.
+```
+sudo ./uninstall_GUI.sh
+```
+After the uninstall is complete cd to / opt / intel directory, see the installation package has been removed.
+
+###(3) open ~ / .bashrc, delete environment variables
+```
+source /opt/intel/openvino/bin/setupvars.sh
+```
 [Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) /  [Next]()
