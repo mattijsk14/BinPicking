@@ -180,7 +180,7 @@ sudo ./uninstall_GUI.sh
 ```
 After the uninstall is complete cd to / opt / intel directory, see the installation package has been removed.
 
-#### 2.8.3 open `~/.bashrc`, delete environment variables
+#### 2.8.3 open ```~/.bashrc```, delete environment variables
 ```
 source /opt/intel/openvino_2021/bin/setupvars.sh
 ```
