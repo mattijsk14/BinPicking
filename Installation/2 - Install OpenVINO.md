@@ -167,21 +167,23 @@ You have completed all required installation, configuration and build steps in t
 
 #### Installation of OpenVINO completed!
 
-# 3. Uninstall OpenVino
+## 3. Uninstall OpenVino
 If you are done with OpenVino, follow these steps.
 
-###(1) Enter the installation path, find openvino_toolkit_uninstaller
+#### 3.1.1 Enter the installation path, find openvino_toolkit_uninstaller
 ```
 cd /opt/intel/openvino/openvino_toolkit_uninstaller
 ```
-###(2) If there is ubuntu use the GNOME desktop, try to uninstall using the GUI interface, more convenient. Please uninstall instructions step by step according to the operation.
+#### 3.1.2 If there is ubuntu use the GNOME desktop, try to uninstall using the GUI interface, more convenient. Please uninstall instructions step by step according to the operation.
 ```
 sudo ./uninstall_GUI.sh
 ```
 After the uninstall is complete cd to / opt / intel directory, see the installation package has been removed.
 
-###(3) open ~ / .bashrc, delete environment variables
+#### 3.1.3 open ~ / .bashrc, delete environment variables
 ```
 source /opt/intel/openvino/bin/setupvars.sh
 ```
+
+
 [Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) /  [Next]()
