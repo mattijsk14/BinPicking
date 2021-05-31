@@ -43,6 +43,7 @@ sudo apt upgrade
 ```
 
 #### 2.2.2. Change directories to where you downloaded the Intel Distribution of OpenVINO toolkit for Linux* package file.
+Make sure your package is downloaded, check the download icon in the top-right of the Firefox Browser.
 If you downloaded the package file to the current user's Downloads directory:
 ```
 cd ~/Downloads/
