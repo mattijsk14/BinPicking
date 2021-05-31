@@ -27,7 +27,7 @@ make
 sudo make install
 ```
 
-#### 2.1. Install GPD
+#### 2.2. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
 ```
 cd ~/dev_ws
