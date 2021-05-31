@@ -42,7 +42,20 @@ cmake -DUSE_OPENVINO=ON ..
 make
 sudo make install
 ```
-error bij cmake
+#### 2.3. Install the right PCL version
+Download the 'tar.gz' file from the [PCL releases](https://github.com/PointCloudLibrary/pcl/releases) page or directly [here](https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.11.1.tar.gz)
+```
+cd ~/Downloads
+tar -xzvf pcl-pcl-1.9.0.tar.gz
+cd pcl-pcl-1.9.0
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr \ -DBUILD_GPU=ON-DBUILD_apps=ON -DBUILD_examples=ON \ -DCMAKE_INSTALL_PREFIX=/usr ..
+make -j6
+sudo make install
+```
+
+
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
 #### 3 Install packages for de Intel Realsense RGB-D Camera D435i
