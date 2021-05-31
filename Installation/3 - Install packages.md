@@ -69,4 +69,4 @@ note: This will take some time.
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
 #### 3 Install packages for de Intel Realsense RGB-D Camera D435i
-jooo werkt nog niet
+Ja weetje, werkt niet joe
