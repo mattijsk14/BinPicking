@@ -65,7 +65,8 @@ cmake -DUSE_OPENVINO=ON ..
 make
 sudo make install
 ```
-
+> EN NU WEER EEN ERROR: `error: ‘TargetDevice’ is not a member of ‘InferenceEngine’
+`
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
 #### 3 Install packages for de Intel Realsense RGB-D Camera D435i
