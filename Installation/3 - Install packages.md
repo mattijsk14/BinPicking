@@ -49,8 +49,14 @@ cd ~/dev_ws
 mkdir pcl
 cd ~/Downloads
 mv pcl-pcl-1.11.1.tar.gz ~/dev_ws/pcl
+```
+Unpack the tar.gz file:
+```
 cd ~/dev_ws/pcl
 tar -xzvf pcl-pcl-1.11.1.tar.gz
+```
+Build the library:
+```
 cd pcl-pcl-1.11.1
 mkdir build
 cd build
@@ -58,7 +64,7 @@ cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr \ -DBUILD_GPU=ON-DBUIL
 make -j6
 sudo make install
 ```
-
+note: This will take some time.
 
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
