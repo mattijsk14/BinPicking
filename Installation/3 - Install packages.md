@@ -42,7 +42,7 @@ cmake -DUSE_OPENVINO=ON ..
 make
 sudo make install
 ```
-#### 2.3. Install the right PCL version
+#### 2.3. Install the latest PCL version
 Download the 'tar.gz' file from the [PCL releases](https://github.com/PointCloudLibrary/pcl/releases) page or directly [here](https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.11.1.tar.gz). When the pop-up download screen is opened, click `save`.
 ```
 cd ~/dev_ws
