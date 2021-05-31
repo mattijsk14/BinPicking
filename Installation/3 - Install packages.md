@@ -26,23 +26,7 @@ cmake ..
 make
 sudo make install
 ```
-
-#### 2.2. Install GPD
-Get the code, originally derived from GPD tag 1.5.0:
-```
-cd ~/dev_ws
-git clone https://github.com/atenpas/gpd
-cd gpd
-```
-Build the library:
-```
-mkdir build
-cd build
-cmake -DUSE_OPENVINO=ON ..
-make
-sudo make install
-```
-#### 2.3. Install the latest PCL version
+#### 2.2. Install the latest PCL version
 Download the 'tar.gz' file from the [PCL releases](https://github.com/PointCloudLibrary/pcl/releases) page or directly [here](https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.11.1.tar.gz). When the pop-up download screen is opened, click `save`.
 ```
 cd ~/dev_ws
@@ -65,6 +49,22 @@ make -j6
 sudo make install
 ```
 note: This will take some time.
+
+#### 2.3. Install GPD
+Get the code, originally derived from GPD tag 1.5.0:
+```
+cd ~/dev_ws
+git clone https://github.com/atenpas/gpd
+cd gpd
+```
+Build the library:
+```
+mkdir build
+cd build
+cmake -DUSE_OPENVINO=ON ..
+make
+sudo make install
+```
 
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
