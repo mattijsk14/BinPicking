@@ -31,7 +31,7 @@ sudo make install
 Get the code, originally derived from GPD tag 1.5.0:
 ```
 cd ~/dev_ws
-git clone https://github.com/sharronliu/gpd.git
+git clone https://github.com/atenpas/gpd
 cd gpd
 ```
 Build the library:
@@ -50,7 +50,7 @@ tar -xzvf pcl-pcl-1.9.0.tar.gz
 cd pcl-pcl-1.9.0
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr \ -DBUILD_GPU=ON-DBUILD_apps=ON -DBUILD_examples=ON \ -DCMAKE_INSTALL_PREFIX=/usr ..
+cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr \ -DBUILD_GPU=ON-DBUILD_apps=ON -DBUILD_examples=ON \ -DCMAKE_INSTALL_PREFIX=/usr .. -DUSE_OPENVINO=ON ..
 make -j6
 sudo make install
 ```
