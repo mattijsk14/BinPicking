@@ -51,7 +51,7 @@ cd ~/Downloads
 mv pcl-pcl-1.11.1.tar.gz ~/dev_ws/pcl
 cd ~/dev_ws/pcl
 tar -xzvf pcl-pcl-1.11.1.tar.gz
-cd pcl-pcl-1.9.0
+cd pcl-pcl-1.11.1
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr \ -DBUILD_GPU=ON-DBUILD_apps=ON -DBUILD_examples=ON \ -DCMAKE_INSTALL_PREFIX=/usr .. -DUSE_OPENVINO=ON ..
