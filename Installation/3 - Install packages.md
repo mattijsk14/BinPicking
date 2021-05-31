@@ -49,6 +49,7 @@ cd ~/dev_ws
 mkdir pcl
 cd ~/Downloads
 mv pcl-pcl-1.11.1.tar.gz ~/dev_ws/pcl
+cd ~/dev_ws/pcl
 tar -xzvf pcl-pcl-1.9.0.tar.gz
 cd pcl-pcl-1.9.0
 mkdir build
