@@ -70,3 +70,5 @@ sudo make install
 
 #### 3 Install packages for de Intel Realsense RGB-D Camera D435i
 Ja weetje, werkt niet joe
+
+[Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md) / [Next]()
