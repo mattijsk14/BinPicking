@@ -45,7 +45,10 @@ sudo make install
 #### 2.3. Install the right PCL version
 Download the 'tar.gz' file from the [PCL releases](https://github.com/PointCloudLibrary/pcl/releases) page or directly [here](https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.11.1.tar.gz). When the pop-up download screen is opened, click `save`.
 ```
+cd ~/dev_ws
+mkdir pcl
 cd ~/Downloads
+mv pcl-pcl-1.11.1.tar.gz ~/dev_ws/pcl
 tar -xzvf pcl-pcl-1.9.0.tar.gz
 cd pcl-pcl-1.9.0
 mkdir build
