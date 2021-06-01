@@ -127,22 +127,7 @@ sudo make install
 
 #### 2.3. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
-```
-cd ~/dev_ws
-git clone https://github.com/atenpas/gpd
-cd gpd
-```
-Build the library:
-```
-mkdir build
-cd build
-cmake -DUSE_OPENVINO=ON ..
-make
-sudo make install
-```
-> EN NU WEER EEN ERROR: `error: ‘TargetDevice’ is not a member of ‘InferenceEngine’`
 
-SHARRONLIU OPTION
 ```
 cd ~/dev_ws/
 git clone https://github.com/sharronliu/gpd
