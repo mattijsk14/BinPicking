@@ -33,6 +33,45 @@ git clone https://github.com/opencv/dldt.git
 cd dldt
 git checkout 2021.3
 ```
+Follow the instructions:
+```
+cd dldt/inference-engine
+git submodule init
+git submodule update --recursive
+```
+Create directory:
+```
+cd 
+mkdir neo
+cd neo
+```
+Download al the packages:
+```
+wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-gmmlib_18.4.1_amd64.deb
+wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-igc-core_18.50.1270_amd64.deb
+wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-igc-opencl_18.50.1270_amd64.deb
+wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-opencl_19.04.12237_amd64.deb
+wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-ocloc_19.04.12237_amd64.deb
+```
+Install all the packages as root:
+```
+sudo dpkg -i intel-igc-core_18.50.1270_amd64.deb 
+sudo dpkg -i intel-gmmlib_18.4.1_amd64.deb 
+sudo dpkg -i intel-igc-opencl_18.50.1270_amd64.deb
+sudo dpkg -i intel-ocloc_19.04.12237_amd64.deb
+sudo dpkg -i intel-opencl_19.04.12237_amd64.deb
+```
+Build the packages
+```
+cd
+cd dldt/interefence-engine
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make --jobs=$(nproc --all)
+```
+
+
 Build:
 ```
 mkdir build
