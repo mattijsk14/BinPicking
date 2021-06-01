@@ -65,9 +65,9 @@ cmake -DUSE_OPENVINO=ON ..
 make
 sudo make install
 ```
-> EN NU WEER EEN ERROR: `error: ‘TargetDevice’ is not a member of ‘InferenceEngine’
-SHARRONLIU OPTION
+> EN NU WEER EEN ERROR: `error: ‘TargetDevice’ is not a member of ‘InferenceEngine’`
 
+SHARRONLIU OPTION
 ```
 cd ~/dev_ws/
 git clone https://github.com/sharronliu/gpd
