@@ -72,9 +72,11 @@ SHARRONLIU OPTION
 cd ~/dev_ws/
 git clone https://github.com/sharronliu/gpd
 cd gpd
+git checkout libgpd
 ```
 Build:
 ```
+cd src/gpd
 mkdir build
 cd build
 cmake -DUSE_OPENVINO=ON ..
