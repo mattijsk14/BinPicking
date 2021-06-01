@@ -27,58 +27,56 @@ cmake --version
 ```
 
 #### 1.1. Install DLDT
-Download:
+##### 1.1.1. Download:
 ```
 git clone https://github.com/opencv/dldt.git
 cd dldt
-git checkout 2021.3
+git checkout 2019_R3
 ```
-Follow the instructions:
+##### 1.1.2. Follow the instructions:
 ```
 cd dldt/inference-engine
 git submodule init
 git submodule update --recursive
 ```
-Create directory:
+##### 1.1.3. Install the dependencies
 ```
-cd 
-mkdir neo
-cd neo
+sudo ./install_dependencies.sh
 ```
-Download al the packages:
+##### 1.1.4. Build:
 ```
-wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-gmmlib_18.4.1_amd64.deb
-wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-igc-core_18.50.1270_amd64.deb
-wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-igc-opencl_18.50.1270_amd64.deb
-wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-opencl_19.04.12237_amd64.deb
-wget https://github.com/intel/compute-runtime/releases/download/19.04.12237/intel-ocloc_19.04.12237_amd64.deb
-```
-Install all the packages as root:
-```
-sudo dpkg -i intel-igc-core_18.50.1270_amd64.deb 
-sudo dpkg -i intel-gmmlib_18.4.1_amd64.deb 
-sudo dpkg -i intel-igc-opencl_18.50.1270_amd64.deb
-sudo dpkg -i intel-ocloc_19.04.12237_amd64.deb
-sudo dpkg -i intel-opencl_19.04.12237_amd64.deb
-```
-Build the packages
-```
-cd
-cd dldt/interefence-engine
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make --jobs=$(nproc --all)
 ```
+Note: this will take some time (10 mins approx.)
 
-
-Build:
+##### 1.1.5. Build and install inference engine:
 ```
-mkdir build
-cd build
+mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DGEMM=MKL -DMKLROOT=/usr/local/lib/mklml -DENABLE_MKL_DNN=ON -DENABLE_CLDNN=ON ..
 make -j8
+sudo make install
 ```
+
+##### 1.1.6. Share the Cmake configures for the Inference Engine to be found by other packages
+```
+sudo mkdir /usr/share/InferenceEngine
+sudo cp InferenceEngineConfig*.cmake /usr/share/InferenceEngine
+sudo cp targets.cmake /usr/share/InferenceEngine
+```
+> Then Inference Engine will be found when adding "find_package(InferenceEngine)" into the CMakeLists.txt
+
+##### 1.1.7. Configure library path
+```
+echo `pwd`/../bin/intel64/Release/lib | sudo tee -a /etc/ld.so.conf.d/openvino.conf
+sudo ldconfig
+
+```
+__
+
+
 
 
 ### 2. Install Grasp Pose Detection package 
