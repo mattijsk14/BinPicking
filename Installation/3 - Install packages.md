@@ -3,10 +3,44 @@
 ## Grasp library with RGB-D Camera
 >Make sure you installed [OpenVINO](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md) & [ROS 2 dashing](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md)
 
-### 1. Install the non ROS packages needed for this application
+### Install the non ROS packages needed for this application
 ```
 sudo apt-get install libpcl-dev libeigen3-dev
 ```
+#### 1.1. Install latest version of Cmake.
+Check your current version with `cmake --version`. (minimum version required: 3.13).
+Visit https://cmake.org/download/ and download the latest binaries (for linux: `x86_64.sh` file.
+Click `save` when the download pop-up is being opened
+unpack:
+```
+cd ~/Downloads
+sudo mv cmake-3.$version.sh /opt/
+cd
+chmod +x /opt/cmake$version.sh
+sudo bash /opt/cmake$version.sh
+```
+Click `enter` until terminal is asking for a `Y`.
+Overwrite the old version:
+```
+sudo ln -s /home/$user/cmake$version/bin/* /usr/local/bin
+cmake --version
+```
+
+#### 1.1. Install DLDT
+Download:
+```
+git clone https://github.com/opencv/dldt.git
+cd dldt
+git checkout 2021.3
+```
+Build:
+```
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DGEMM=MKL -DMKLROOT=/usr/local/lib/mklml -DENABLE_MKL_DNN=ON -DENABLE_CLDNN=ON ..
+make -j8
+```
+
 
 ### 2. Install Grasp Pose Detection package 
 [Source] (https://github.com/intel/ros2_grasp_library/blob/master/grasp_tutorials/doc/grasp_ros2/install_gpd.md)
