@@ -86,22 +86,7 @@ _______
 ### 2. Install Grasp Pose Detection package 
 [Source] (https://github.com/intel/ros2_grasp_library/blob/master/grasp_tutorials/doc/grasp_ros2/install_gpd.md)
 
-
-#### 2.1. Install GPG
-Get the code:
-```
-cd ~/dev_ws
-git clone https://github.com/atenpas/gpg.git
-cd gpg
-```
-Build the library:
-```
-mkdir build && cd build
-cmake ..
-make
-sudo make install
-```
-#### 2.2. Install the latest PCL version
+#### 2.1. Install the latest PCL version
 Download the 'tar.gz' file from the [PCL releases](https://github.com/PointCloudLibrary/pcl/releases) page or directly [here](https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.11.1.tar.gz). When the pop-up download screen is opened, click `save`.
 ```
 cd ~/dev_ws
@@ -124,6 +109,21 @@ make -j6
 sudo make install
 ```
 note: This will take some time.
+
+#### 2.2. Install GPG
+Get the code:
+```
+cd ~/dev_ws
+git clone https://github.com/atenpas/gpg.git
+cd gpg
+```
+Build the library:
+```
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+```
 
 #### 2.3. Install GPD
 Get the code, originally derived from GPD tag 1.5.0:
