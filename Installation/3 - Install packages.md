@@ -66,7 +66,22 @@ make
 sudo make install
 ```
 > EN NU WEER EEN ERROR: `error: ‘TargetDevice’ is not a member of ‘InferenceEngine’
-`
+SHARRONLIU OPTION
+
+```
+cd ~/dev_ws/
+git clone https://github.com/sharronliu/gpd
+cd gpd
+```
+Build:
+```
+mkdir build
+cd build
+cmake -DUSE_OPENVINO=ON ..
+make
+sudo make install
+```
+
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 
 #### 3 Install packages for de Intel Realsense RGB-D Camera D435i
