@@ -74,7 +74,7 @@ echo `pwd`/../bin/intel64/Release/lib | sudo tee -a /etc/ld.so.conf.d/openvino.c
 sudo ldconfig
 
 ```
-__
+_______
 
 
 
