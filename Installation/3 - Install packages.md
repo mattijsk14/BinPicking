@@ -160,8 +160,30 @@ sudo make install
 ```
 
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
+______________
+### 3. Build grasp library
+Get the source code
+```
+cd
+mkdir ~/dev_ws/src -p
+cd ~/dev_ws/src
+git clone https://github.com/intel/ros2_grasp_library.git
+```
+Copy the models
+```
+cp -a ~/dev_ws/gpd/models ros2_grasp_library/gpd 
+```
+Build
+```
+cd ..
+source /opt/ros/dashing/setup.bash
+colcon build --symlink-install --packages-select grasp_msgs moveit_msgs grasp_ros2
+source ./install/local_setup.bash
+```
 
-#### 3 Install packages for de Intel Realsense RGB-D Camera D435i
+
+
+### 4 Install packages for de Intel Realsense RGB-D Camera D435i
 Ja weetje, werkt niet joe
 
 [Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md) / [Next]()
