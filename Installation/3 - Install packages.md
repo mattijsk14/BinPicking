@@ -50,9 +50,14 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make --jobs=$(nproc --all)
 ```
-Note: this will take some time (10 mins approx.)
+Note: this will take some time (10-30 mins approx.)
 
 ##### 1.1.5. Build and install inference engine:
+For CMake projects, set an environment variable InferenceEngine_DIR:
+```
+export InferenceEngine_DIR=/path/to/dldt/inference-engine/build/
+```
+onderstaande werkt niet.
 ```
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DGEMM=MKL -DMKLROOT=/usr/local/lib/mklml -DENABLE_MKL_DNN=ON -DENABLE_CLDNN=ON ..
 make -j8
