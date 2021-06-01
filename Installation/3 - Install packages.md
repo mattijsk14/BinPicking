@@ -54,7 +54,6 @@ Note: this will take some time (10 mins approx.)
 
 ##### 1.1.5. Build and install inference engine:
 ```
-mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DGEMM=MKL -DMKLROOT=/usr/local/lib/mklml -DENABLE_MKL_DNN=ON -DENABLE_CLDNN=ON ..
 make -j8
 sudo make install
