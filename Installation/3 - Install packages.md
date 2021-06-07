@@ -152,6 +152,7 @@ sudo make install
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 ______________
 ### 3. Build grasp library
+[Source](https://github.com/intel/ros2_grasp_library/blob/master/grasp_tutorials/doc/grasp_ros2/tutorials_1_grasp_ros2_with_camera.md)
 Get the source code:
 ```
 cd
