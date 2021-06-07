@@ -147,18 +147,18 @@ sudo make install
 - note: by default, "libgrasp_pose_detection.so" shall be installed to "/usr/local/lib" and header files installed to "/usr/local/include/gpd"
 ______________
 ### 3. Build grasp library
-Get the source code
+Get the source code:
 ```
 cd
 mkdir ~/dev_ws/src -p
 cd ~/dev_ws/src
 git clone https://github.com/intel/ros2_grasp_library.git
 ```
-Copy the models
+Copy the models:
 ```
 cp -a ~/dev_ws/gpd/models ros2_grasp_library/gpd 
 ```
-Build
+Build:
 ```
 cd ..
 source /opt/ros/dashing/setup.bash
@@ -166,6 +166,10 @@ colcon build --symlink-install --packages-select grasp_msgs moveit_msgs grasp_ro
 source ./install/local_setup.bash
 ```
 
+> Error after colcon build: CMake Error at CMakeLists.txt:36 (find_package):
+  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "ament_cmake", but CMake did not find one.
 
 
 ### 4 Install packages for de Intel Realsense RGB-D Camera D435i
