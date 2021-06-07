@@ -64,6 +64,7 @@ make -j8
 sudo make install
 ```
 
+
 ##### 1.1.6. Share the Cmake configures for the Inference Engine to be found by other packages
 ```
 sudo mkdir /usr/share/InferenceEngine
@@ -78,8 +79,12 @@ echo `pwd`/../bin/intel64/Release/lib | sudo tee -a /etc/ld.so.conf.d/openvino.c
 sudo ldconfig
 
 ```
-_______
+#### 1.2 Install colcon
 
+```
+sudo apt install python3-colcon-common-extensions
+```
+_______
 
 
 
