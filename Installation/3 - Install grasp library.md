@@ -153,6 +153,8 @@ sudo make install
 ______________
 ### 3. Build grasp library
 [Source](https://github.com/intel/ros2_grasp_library/blob/master/grasp_tutorials/doc/grasp_ros2/tutorials_1_grasp_ros2_with_camera.md)
+> Install pcl 1.8.1
+
 Get the source code:
 ```
 cd
