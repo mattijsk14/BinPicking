@@ -170,7 +170,7 @@ Build:
 ```
 cd ..
 source /opt/ros/dashing/setup.bash
-colcon build --symlink-install --packages-select grasp_msgs moveit_msgs grasp_ros2
+sudo colcon build --symlink-install --packages-select grasp_msgs moveit_msgs grasp_ros2
 source ./install/local_setup.bash
 ```
 
