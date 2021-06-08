@@ -187,4 +187,4 @@ source /opt/intel/openvino_2021/bin/setupvars.sh
 ```
 
 
-[Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) /  [Next](https://github.com/mattijsk14/BinPicking/blob/main/Installation/3%20-%20Install%20packages.md)
+[Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md) /  [Next](https://github.com/mattijsk14/BinPicking/blob/main/Installation/3%20-%20Install%20grasp%20library.md)
