@@ -200,6 +200,10 @@ ros2 run grasp_ros2 grasp_ros2 __params:=src/ros2_grasp_library/grasp_ros2/cfg/g
 ```
 
 ### 4 Install packages for de Intel Realsense RGB-D Camera D435i
-Ja weetje, werkt niet joe
+
+
+
+
+
 
 [Previous](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md) / [Next]()
