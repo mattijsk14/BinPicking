@@ -201,7 +201,7 @@ ros2 run grasp_ros2 grasp_ros2 __params:=src/ros2_grasp_library/grasp_ros2/cfg/g
 
 ### 4 Install packages for de Intel Realsense RGB-D Camera D435i
 
-
+https://github.com/intel/ros2_intel_realsense
 
 
 
