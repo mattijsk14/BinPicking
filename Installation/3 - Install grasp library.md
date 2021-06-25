@@ -35,6 +35,7 @@ git checkout 2019_R3
 ```
 ##### 1.1.2. Follow the instructions:
 ```
+cd
 cd dldt/inference-engine
 git submodule init
 git submodule update --recursive
