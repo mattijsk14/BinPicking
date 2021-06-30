@@ -1,6 +1,6 @@
 # Installing all the needed packages
 > This installation manual has not yet been put into operation due to many error messages.
-> 
+> Note: Also tried to install the project by using a docker environment from this [page](https://github.com/intel/ros2_grasp_library/tree/master/docker).
 ## Grasp library with RGB-D Camera
 >Make sure you installed [OpenVINO](https://github.com/mattijsk14/BinPicking/blob/main/Installation/2%20-%20Install%20OpenVINO.md) & [ROS 2 dashing](https://github.com/mattijsk14/BinPicking/blob/main/Installation/1%20-%20Install%20ROS%202.md)
 
