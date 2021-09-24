@@ -2,9 +2,9 @@
 
 ### This package contains an known-object detection, recognition and grasping solution for the UR5 cobot made and optimised for ROS 2 with Intel's openVINO packages. 
 
->   
-> IMPORTANT NOTE:         **THIS ENVIRONMENT IS UNDER CONSTRUCTION AND WON'T BE FINISHED**
->   
+>   |
+>   |IMPORTANT NOTE:         **THIS ENVIRONMENT IS UNDER CONSTRUCTION AND WON'T BE FINISHED**
+>   |
 
 
 
